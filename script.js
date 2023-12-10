@@ -68,14 +68,14 @@ function deleteList(index) {
     renderList(); // Re-render the list
 }
 
-function read() {
-    const messageRead = `Klik pada Listed Text untuk memberi "Strikethrough" (coret).
-Klik pada gambar Recycle Bin untuk menghapus dari List`;
-alert(messageRead);
-}
+// function read() {
+//     const messageRead = `Klik pada Listed Text untuk memberi "Strikethrough" (coret).
+// Klik pada gambar Recycle Bin untuk menghapus dari List`;
+// alert(messageRead);
+// }
 
-function ask() {
-    const messageAsk = `katakita Production @2023.
-Kontak kami di +6285859595945.`;
-alert(messageAsk);
-}
+// function ask() {
+//     const messageAsk = `katakita Production @2023.
+// Kontak kami di +6285859595945.`;
+// alert(messageAsk);
+// }
