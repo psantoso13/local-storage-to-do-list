@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(red, snow);
+}
+
+.bg {
+    width: 360px;
+    height: max-content;
+    background-color: black;
+    margin: auto;
+}
+
+.container {
+    display: grid;
+    width: 360px;
+    padding-top: 30px;
+    justify-content: center;
+    background-color: rgba(250, 250, 250, 1);
+    margin: auto;
+    min-height: 100vh;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.upperPic {
+    margin-left: 15px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.imgWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+    border-radius: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.readPic {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.askPic {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.mainPic {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+.logoPic {
+    width: 80px;
+}
+
+.listPic {
+    width: 200px;
+}
+
+.inputField {
+    width: 320px;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.addButton {
+    width: 100px;
+    background-color: black;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    color: aliceblue;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.deleteButton {
+    width: 100px;
+    background-color: black;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    color: aliceblue;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.buttonComp {
+    display: flex;
+}
+
+.content {
+ display: block;
+ width: 320px;
+ margin: auto;
+ background-color: darkgrey;
+ margin-top: 20px;
+ border-top-left-radius: 5px;
+ border-top-right-radius: 5px;
+}
+
+.contentUl {
+    display: grid;
+    width: 320px;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.contentLi {
+    display: flex;
+    width: 310px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.spanLi {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.recyclePic {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Noto+Sans:wght@500;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Local Storage to-do list</title>
+</head>
+<body>
+    <div class="bg">
+      <div class="container">
+        <div>
+          <div class="upperPic">
+            <div class="imgWrapper">
+              <img onclick="read()" src="images/read.png" class="readPic">
+            </div>
+            <div class="imgWrapper">
+              <img onclick="ask()" src="images/ask.png" class="askPic">
+            </div>
+          </div>
+          <div class="mainPic">
+            <img src="images/todoLogo.png" class="logoPic">
+            <img src="images/todoList.png" class="listPic">
+          </div>
+          <div>
+            <input class="inputField" type="text" id="input-el">
+            <div class="buttonComp">
+              <div class="addButton" id="input-btn">Add Item</div>
+              <div class="deleteButton" id="clear-btn">Clear List</div>
+            </div>
+            <span class="content">
+              <ul class="contentUl" id="ul-el"></ul>
+            </span>
+          </div>
+        </div>
+      </div>
+  </div>
+    <script src="script.js"></script>
+</body>
+</html>
